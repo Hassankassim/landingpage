@@ -65,7 +65,7 @@ class Canvas extends React.Component {
     // this.controls.minDistance = 100;
     this.controls.enableDamping = true;
     this.controls.autoRotate = true;
-    this.controls.autoRotateSpeed = 2;
+    this.controls.autoRotateSpeed = 6;
     this.controls.enablePan = false;
     this.controls.enableZoom = false;
     //  this.controls.minPolarAngle = -Math.PI / 2;
@@ -127,7 +127,8 @@ class Canvas extends React.Component {
       DRACO_LOADER
     );
     GLtfLoader.load(chair, (gltf) => {
-      gltf.scene.position.set(0, -30, 0);
+      gltf.scene.position.set(0, -10, 0);
+      gltf.scene.scale.set(70, 70, 70);
       gltf.scene.traverse(function (child) {
         if (child instanceof THREE.Mesh) {
           child.castShadow = true;
