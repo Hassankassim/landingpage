@@ -1,10 +1,10 @@
 export const data = [
   {
     id: 1,
-    heading: 'Sandy Shores',
-    subHeading: 'Unwavering Beige Beauty',
-    text: 'It is a versatile and neutral color that can be paired with a variety of different outfits and styles.',
-    swatchColor: '#E6D3C4',
+    heading: '5G internet',
+    subHeading: 'Fast internet from TSH120,000/=',
+    text: 'Get connected to our superfast internet for your home ot office',
+    swatchColor: '#E00201',
     background: '#E5E5E5',
     headingColor: '#000',
     buttonColor: { text: '#000', background: '#D7B172' },
@@ -13,7 +13,7 @@ export const data = [
         color: '#E6D3C4',
       },
       strap: {
-        color: '#5E2B17',
+        color: '#E00201',
       },
       metal: {
         color: '#D7B172',
@@ -21,10 +21,9 @@ export const data = [
     },
   },
   {
-    id: 2,
-    heading: 'Earthy Khaki',
-    subHeading: 'Chestnut with red tint.',
-    text: ' The brown color of the bag adds a touch of warmth and earthiness to its appearance, making it suitable for a wide range of occasions and outfits.',
+    heading: '5G internet',
+    subHeading: 'Fast internet from TSH120,000/=',
+    text: 'Get connected to our superfast internet for your home ot office',
 
     swatchColor: '#4e4641',
     background: '#79716C',
@@ -44,10 +43,10 @@ export const data = [
   },
   {
     id: 3,
-    heading: 'Ocean Explorer',
-    subHeading: 'Ocean with coral tint.',
-    text: 'The color blue is often associated with calmness, trust, and intelligence, making a blue backpack a great choice for anyone looking for a stylish and versatile bagpack.',
-
+   heading: '5G internet',
+    subHeading: 'Fast internet from TSH120,000/=',
+    text: 'Get connected to our superfast internet for your home ot office',
+    
     swatchColor: '#4F92B1',
     background: '#C1D6E3',
     headingColor: '#1F333E',
