@@ -2,7 +2,7 @@ export const data = [
   {
     id: 1,
     heading: '5G internet',
-    subHeading: 'Fast internet from TSH120,000/=',
+    subHeading: 'Fast internet from TSH 120,000/=',
     text: 'Get connected to our superfast internet for your home ot office',
     swatchColor: '#E00201',
     background: '#E5E5E5',
@@ -22,7 +22,7 @@ export const data = [
   },
   {
     heading: '5G internet',
-    subHeading: 'Fast internet from TSH120,000/=',
+    subHeading: 'Fast internet from TSH 120,000/=',
     text: 'Get connected to our superfast internet for your home ot office',
 
     swatchColor: '#4e4641',
@@ -44,7 +44,7 @@ export const data = [
   {
     id: 3,
    heading: '5G internet',
-    subHeading: 'Fast internet from TSH120,000/=',
+    subHeading: 'Fast internet from TSH 120,000/=',
     text: 'Get connected to our superfast internet for your home ot office',
     
     swatchColor: '#4F92B1',

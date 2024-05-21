@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import Canvas from './canvas';
 import Content from './content';
-import logo from '../img/Vodacom-Logo.wine.svg'
+import logo from '../img/voda.png'
 import { data } from '../data';
 
 import { LoadingAnimation } from '../components';
@@ -44,7 +44,7 @@ function Banner() {
       {isLoading ? <LoadingAnimation /> : null}
 
       <div className="logo absolute my-2 ml-6 text-left text-2xl font-bold tracking-widest md:ml-28 lg:ml-[12vw] lg:my-8">
-     <span><img src={logo} width={"250px"} alt="" /></span>
+     <span><img src={logo} width={"100px"} alt="" /></span>
       </div>
       <div className="rotation">
         <p>Please Rotate your device to see the Product</p>
