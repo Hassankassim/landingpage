@@ -128,7 +128,7 @@ class Canvas extends React.Component {
     );
     GLtfLoader.load(chair, (gltf) => {
       gltf.scene.position.set(0, -10, 0);
-      gltf.scene.scale.set(70, 70, 70);
+      gltf.scene.scale.set(360, 360, 360);
       gltf.scene.traverse(function (child) {
         if (child instanceof THREE.Mesh) {
           child.castShadow = true;
