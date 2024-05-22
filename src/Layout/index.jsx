@@ -5,7 +5,7 @@ import Content from './content';
 import logo from '../img/voda.png'
 import { data } from '../data';
 
-import { LoadingAnimation } from '../components';
+// import { LoadingAnimation } from '../components';
 
 function Banner() {
   const banner = useRef();
@@ -41,7 +41,7 @@ function Banner() {
 
   return (
     <div ref={banner} className="w-screen h-screen relative">
-      {isLoading ? <LoadingAnimation /> : null}
+      {/* {isLoading ? <LoadingAnimation /> : null} */}
 
       <div className="logo absolute my-2 ml-6 text-left text-2xl font-bold tracking-widest md:ml-28 lg:ml-[12vw] lg:my-8">
      <span><img src={logo} width={"100px"} alt="" /></span>
